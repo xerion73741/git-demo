@@ -38,3 +38,7 @@ git commit -m(messenger) "註解"
 
 11. 檢視倉庫狀態
 git log
+git log --oneline
+
+12. 暫存區檔案恢復
+git restore --staged filename
