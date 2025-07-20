@@ -15,7 +15,7 @@ U->Utracked
 git status
 
 5. 加入控管(暫存區)
-git commit -m "註解"
+git add filename
 
 6. 其餘狀態
 U->Utracked
@@ -34,5 +34,7 @@ git cat-file -t(型態) shall(前六碼)
              -p(內容)
 
 10. 加入倉庫
+git commit -m(messenger) "註解"
 
-11. 檢視 log
+11. 檢視倉庫狀態
+git log
