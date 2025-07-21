@@ -57,3 +57,6 @@ git branch
 
 17. 切換分支
 git checkout branch-nama
+
+18. 捨棄變動
+git checkout .
