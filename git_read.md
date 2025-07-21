@@ -60,3 +60,8 @@ git checkout branch-nama
 
 18. 捨棄變動
 git checkout .
+
+19. 合併分支
+到 master 去合併 test
+master=>test
+test=>master
