@@ -62,6 +62,6 @@ git checkout branch-nama
 git checkout .
 
 19. 合併分支
+git merge test
 到 master 去合併 test
-master=>test
 test=>master
