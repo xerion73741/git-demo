@@ -88,3 +88,15 @@ git merge test
 
 21. 刪除分支
 git branch -D test
+
+
+22. VIM編輯器用法
+    - 使用 git commit 進入
+    - 使用 i 進入編輯模式
+    - 書寫完畢後使用esc切換到下方命令列
+    - 輸入:wq (write+quit)
+    - 如果寫入失敗輸入:wq! (!=>強制模式)
+
+
+23. 練習
+增加3個檔案跟commit log 
