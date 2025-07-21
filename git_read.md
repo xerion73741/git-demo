@@ -40,10 +40,12 @@ git commit -m(messenger) "註解"
 git log
 git log --oneline
 
-12. 暫存區檔案恢復
+12. 暫存區檔案恢復工作目錄(U)
 git restore --staged filename
 
-13. 強制刪除
+13. 倉庫區檔案恢復工作目錄(U)
+git restore --staged filename
+
+14. 強制刪除
 git rm -f filename
 
-14.
