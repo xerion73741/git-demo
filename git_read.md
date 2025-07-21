@@ -44,8 +44,10 @@ git log --oneline
 git restore --staged filename
 
 13. 倉庫區檔案恢復工作目錄(U)
-git restore --staged filename
+git rm --cached filename
 
 14. 強制刪除
-git rm -f filename
+git rm -f(force) filename
 
+15
+git rm 1.txt
