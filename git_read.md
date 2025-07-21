@@ -43,11 +43,17 @@ git log --oneline
 12. 暫存區檔案恢復工作目錄(U)
 git restore --staged filename
 
-13. 倉庫區檔案恢復工作目錄(U)
+13. 移除暫存區保留工作目錄(U)
 git rm --cached filename
 
 14. 強制刪除
 git rm -f(force) filename
 
-15
-git rm 1.txt
+15. 產生分支
+git branch name
+
+16. 檢視分支
+git branch
+
+17. 切換分支
+git checkout branch-nama
