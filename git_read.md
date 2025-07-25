@@ -100,3 +100,38 @@ git branch -D test
 
 23. 練習
 增加3個檔案跟commit log 
+
+
+24. 切換 commit -log 
+git checkout 6碼
+git checkout master<=切回
+
+
+25. 重置到某一個 commit -log
+git reset 6碼 軟回復版本
+
+git reset --hard 6碼 強制回復版本
+
+
+26. 檢視所有歷史
+git reflog
+
+
+27. 綁定雲端網址
+git remote add origin https://github.com/xerion73741/git-demo.git
+
+
+28. 檢視綁定的雲端網址
+git remote -v
+
+
+29. 推送雲端
+git push
+
+30. 複製專案
+git clone https://github.com/xerion73741/git-demo.git
+
+31. 新增、切換分支
+git checkout -b test 新增切換
+git branch test 
+git checkout test
