@@ -133,5 +133,7 @@ git clone https://github.com/xerion73741/git-demo.git
 
 31. 新增、切換分支
 git checkout -b test 新增切換
-git branch test 
-git checkout test
+git branch test 新增分之
+git checkout test 切換分支
+
+123123
