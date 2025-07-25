@@ -136,4 +136,14 @@ git checkout -b test 新增切換
 git branch test 新增分之
 git checkout test 切換分支
 
-123123
+32. 雲端同步到本地
+git pull
+
+33. 刪除雲端分支
+git push --delete origin test
+
+34. 修改上一次的 commit
+git commit --amend
+
+35. 強制推送
+git push -f
